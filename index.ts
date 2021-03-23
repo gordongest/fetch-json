@@ -6,7 +6,7 @@ interface Todo {
   id: number;
   title: string;
   completed: boolean;
-}
+};
 
 axios.get(url)
   .then(response => {
@@ -25,4 +25,4 @@ const logoTodo = (id: number, title: string, completed: boolean) => {
     Has a title of: ${title}
     Is it finished? ${completed}
   `);
-}
+};
